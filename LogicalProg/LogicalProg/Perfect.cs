@@ -17,7 +17,7 @@ namespace LogicalProg
             int n = int.Parse(Console.ReadLine());
             num = n / 2;
 
-
+            //for loop
             for (int i = 2; i <= num; i++)
             {
                 if (n % i == 0)
