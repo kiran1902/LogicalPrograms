@@ -1,4 +1,4 @@
 ﻿using LogicalProg;
 
-Perfect myRev = new Perfect();
-myRev.Test();
+Watch watch = new Watch();
+watch.Test();
