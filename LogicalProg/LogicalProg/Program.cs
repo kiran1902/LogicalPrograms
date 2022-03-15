@@ -1,4 +1,4 @@
 ﻿using LogicalProg;
 
-Perfect myFibo = new Perfect();
-myFibo.Test();
+Perfect myPrime = new Perfect();
+myPrime.Test();
