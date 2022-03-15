@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProg
 {
-    class Class1
+    class Fibonacci
     {
         public void Test() 
         {
