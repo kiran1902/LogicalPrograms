@@ -1,4 +1,4 @@
 ﻿using LogicalProg;
 
-Perfect myPrime = new Perfect();
-myPrime.Test();
+Perfect myRev = new Perfect();
+myRev.Test();

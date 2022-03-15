@@ -10,26 +10,23 @@ namespace LogicalProg
     {
         public void Test()
         {
-            int num = 0, flag = 0; //local variables
+            int Reverse = 0;//Local Variable 
 
-            //user input
-            Console.Write("Enter the Number to check Prime: ");
-            int n = int.Parse(Console.ReadLine());
-            num = n / 2;
-
-            //for loop
-            for (int i = 2; i <= num; i++)
+            //User Input
+            Console.WriteLine("Enter a number to reverse");
+            int Number = int.Parse(Console.ReadLine());
+            
+            //Conditional Statement
+            while (Number > 0)
             {
-                if (n % i == 0)
-                {
-                    Console.Write(n + " is not Prime Number");
-                    flag = 1;
-                    break;
-                }
+                int remainder = Number % 10;
+                Reverse = (Reverse * 10) + remainder;
+                Number = Number / 10;
             }
-            if (flag == 0)
-                Console.Write(n + " is Prime Number.");
+            Console.WriteLine("Reversed number is {0}", + Reverse);
+            Console.ReadLine();
         }
     }
 }
+ 
 
