@@ -1,4 +1,7 @@
 ﻿using LogicalProg;
 
-Watch watch = new Watch();
-watch.Test();
+
+Prog random = new();
+random.Test();
+
+
